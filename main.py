@@ -16,7 +16,7 @@ def main():
     """Main function to run the image denoising pipeline."""
     
     # --- 1. Setup Paths ---
-    IMAGE_NAME = "WIN_20250412_01_44_59_Pro.jpg"  # User should replace this
+    IMAGE_NAME = "sample.jpg"
     INPUT_PATH = os.path.join("images", IMAGE_NAME)
     OUTPUT_DIR = "output"
     
